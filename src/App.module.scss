@@ -1,0 +1,17 @@
+@import "scss/variables/_colors.scss";
+@import "scss";
+
+.App {
+    text-align: center;
+}
+
+.appHeader {
+    background-color: $monochrome-grey20;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+}
